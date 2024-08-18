@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+  #engage{
+      width: 100%;
+      height: 1000px;
+      background-color: blue;   
+  }
+  .heaven{
+    width: 100%;
+    height: 350px;
+  }
+  
+  .main{
+      display: flex;
+      justify-content: space-between;
+      background-color: brown;
+      width: 100%;
+      position: fixed;
+      z-index: 1;   
+     
+  }
+  #eleven{
+      display: none;
+  }
+  /* #rocky{
+      margin-top: -80px;
+    
+  } */
+  .navbar{
+      display: flex;
+   
+  
+  }
+  #origin{
+      margin-left: 100px;
+      margin-right: 50px;
+      margin-top: 40px;
+      list-style: none;
+      font-weight: 600;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: white;
+  }
+  #check{
+      display: none;
+  }
+  .icons{
+      font-size: 2.5rem;
+      color: black;
+      font-weight: 600;
+      position: absolute;
+      right: 5%;
+      display: none;
+  }
+  #trendy{
+      background-color: bisque;
+      width: 100%;
+      height: 700px;
+      display: flex;
+      flex-wrap: nowrap;
+      position: relative;
+     
+     
+  }
+  #ht{
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: black;
+      font-size: 50px;
+      color: white;
+     
+  }
+  #yt{
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: black;
+      font-size: 50px;
+      color: white;
+  
+  }
+  #lin{
+      position: absolute;
+    top: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: black;
+      font-size: 50px;
+      color: white;
+  
+  
+  }
+  .jk{
+      /* position: absolute;
+      top: 30%; */
+    
+     
+      width: 300px;
+      height: 400px;
+     
+      margin: 190px 50px;
+      background-color: white;
+      position: relative;
+  }
+  #well{
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+     font-size: 20px;
+     position: absolute;
+     left: 50%;
+     top: 80%;
+     transform: translateX(-50%);
+  
+  }
+  .hanna{
+      
+      display: flex;
+      flex-wrap: nowrap;
+     
+      width: 100%;
+      height: 500px;
+      background-color: black;
+    
+      
+  }
+  .vinter{
+      width: 510px;
+      height: 500px;
+      /* border: 1px solid ; */
+      position: relative;
+      background-color: black;
+      color: white;
+  }
+  #genetic{
+      position: absolute;
+      left: 5%;
+      top: 5%;
+  }
+  #been{
+      position: absolute;
+      left: 5%;
+      top: 20%;
+  
+  }
+  #hit{
+      position: absolute;
+      left: 5%;
+      top: 5%;
+  
+  }
+  .send{
+      position: absolute;
+      left: 5%;
+      top: 20%;
+     font-size: 25px;
+  
+  }
+  .send1{
+      position: absolute;
+      left: 15%;
+      top: 20%;
+     font-size: 25px;
+  
+  }
+  .send2{
+      position: absolute;
+      left: 25%;
+      top: 20%;
+     font-size: 25px;
+  
+  }
+  .send3{
+      position: absolute;
+      left: 35%;
+      top: 20%;
+     font-size: 25px;
+  
+  }
+  #rick{
+      position: absolute;
+      left: 50%;
+      top: 90%;
+      transform: translateX(-50%);
+  
+  }
+  
+  #water{
+      position: absolute;
+      left: 5%;
+      top: 5%;
+  }
+  #vas{
+      
+          position: absolute;
+          left: 5%;
+          top: 20%;
+         font-size: 25px;
+      
+      
+  }
+  /* hover  */
+  .send:hover{
+      color: red;
+  }
+  .send1:hover{
+      color: yellow;
+  }
+  .send2:hover{
+      color: blue;
+  }
+  .send3:hover{
+      color: orange;
+  }
+  #genetic:hover{
+      color: yellow;
+  }
+  #water:hover{
+      color: yellow;
+  }
+  #hit:hover{
+      color: yellow;
+  }
+  
+  
+  
+  
+        
+  
+  /* classy  */
+  
+  /* media qweries  */
+  @media(max-width:760px){
+      .icons{
+          display: flex;
+      }
+     #closeIcon{
+      display: none;
+     }
+     #check:checked~.icons #menuIcon{
+      display: none;
+  
+     }
+     #check:checked~.icons #closeIcon{
+      display: block;
+  
+     }
+     #check:checked~.navbar{
+      display: block;
+  
+     }
+     .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      background-color: black;
+      width: 100%;
+      display: none;
+     }
+      #origin{
+      display: block;
+      text-align: center;
+      font-size: 2rem;
+      margin: 1rem 0px;
+      font-weight: 600;
+  
+     }
+     #trendy{
+      display: flex;
+      flex-wrap: wrap;
+      height: 2050px;
+      position: relative;
+     }
+     #rivery{
+      position: absolute;
+      top: 5%;
+    
+     }
+     #riveri{
+      position: absolute;
+      top: 27%;
+  
+     }
+     #rivere{
+      position: absolute;
+      top: 49%;
+  
+     }
+     #rivert{
+      position: absolute;
+      top: 71%;
+  
+     }
+     #ht{
+      position: absolute;
+      top: 8%;
+      font-size: 50px;
+      color: rgb(146, 6, 246);
+   
+   left: 30%;
+      transform: translateX(-50%);
+  }
+  #yt{
+      position: absolute;
+      top: 8%;
+      font-size: 50px;
+      color: rgb(10, 53, 243);
+   
+   left: 30%;
+      transform: translateX(-50%);
+  }
+  #lin{
+      position: absolute;
+      top: 8%;
+      font-size: 50px;
+      color: rgb(252, 16, 31);
+   
+   left: 30%;
+      transform: translateX(-50%);
+  }
+  .hanna{
+      flex-wrap: wrap;
+      
+  }
+  .vinter{
+      width: 100%;
+      background-color: black;
+  }
+  
+  #eleven{
+      display: block;
+  }
+  
+  
+  }
+  
+  
+  
